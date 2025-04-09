@@ -8,7 +8,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 def generate_launch_description():
 
     map_name = 'map_1744085681.yaml'
-    map_root = '/home/tmrobot/tmrobot/SLAM/map/nav/'
+    map_root = '/home/tmrobot/jetsonbot/SLAM/map/nav/'
 
     map_file = os.path.join(
         map_root,
